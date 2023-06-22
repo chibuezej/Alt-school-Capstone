@@ -1,0 +1,138 @@
+.intro__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: #E0E4EC;
+  }
+  
+  .intro__left-side {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .intro__left-side h1 {
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 135%;
+    text-align: center;
+    color: #08299B;
+  }
+  
+  .intro__left-side h4 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 135%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 24px;
+  }
+  
+  .intro__left-side-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .intro__left-side-btn button {
+    padding: 12px 24px;
+    background: #08299B;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-right: 16px;
+  }
+  .intro__left-side-btn button span{
+    font-weight: 600;
+font-size: 25px;
+line-height: 150%;
+text-align: center;
+letter-spacing: -0.011em;
+color: #FFFFFF;
+  }
+
+  .intro__left-side-pgh{
+    display: flex;
+    justify-content: center;
+  }
+  .intro__left-side-pgh p{
+    font-family: 'Inter';
+font-style: italic;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: -0.011em;
+color: #1E1E1E;
+  }
+  
+  .intro__right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .intro__img {
+    margin-bottom: 16px;
+  }
+  
+  .into__input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .intro__search{
+    display: flex;
+    justify-content: center;
+  }
+  .intro__input-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 688px;
+height: 64px;
+margin-bottom: 2rem;
+background: #FFFFFF;
+border-radius: 25px;
+  }
+  .intro__input-img p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 150%;
+text-align: center;
+letter-spacing: -0.011em;
+color: #C1C1C1;
+  }
+  .intro__input-img img{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .location{
+    padding: 0 1rem 0 0;
+  }
+  .into__input p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.011em;
+    color: #08299B;
+  }
+  
+  .into__input input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 300px;
+  }
+  

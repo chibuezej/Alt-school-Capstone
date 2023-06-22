@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(14, 61, 183, 0.15);
+    padding: 2rem 6rem;
+  }
+  .navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .navbar__logo {
+   margin-right: 2rem;
+  }
+  .navbar__logo h2{
+    width: 185px;
+height: 53px;
+font-family: 'DM Sans';
+font-weight: 700;
+font-size: 35px;
+line-height: 150%;
+letter-spacing: -0.011em;
+color: #08299B;
+  }
+  .navbar__links_container{
+    display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  }
+ .navbar__links_container p {
+font-family: 'DM Sans';
+font-weight: 500;
+font-size: 27px;
+line-height: 150%;
+letter-spacing: -0.011em;
+margin: 0 1rem;
+color: #000000;
+
+ }
+  .navbar__sign{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .navbar__sign button{
+    width: 141px;
+    height: 59px;
+    margin: 0 1rem;
+    background: #08299B;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+.navbar__btn{
+font-family: 'DM Sans';
+font-weight: 500;
+font-size: 30px;
+line-height: 150%;
+text-align: center;
+letter-spacing: -0.011em;
+color: #FFFFFF;
+}
+

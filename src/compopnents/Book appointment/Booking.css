@@ -1,0 +1,76 @@
+.booking {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 2rem;
+    background: #FFF;
+  }
+  
+  .book__right-side {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .book__left-side {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .book__header {
+    text-align: center;
+    color: #08299B;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.0275rem;
+    margin-bottom: 20px;
+  }
+
+  
+  .book__images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .book__button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .book__button button{
+    width: 29.125rem;
+height: 4.375rem;
+    border: none;
+    border-radius: 25px;
+background: #08299B;
+color: #FFF;
+text-align: center;
+font-size: 2.1875rem;
+line-height: 150%;
+letter-spacing: -0.02406rem;
+  }
+  .book-input{
+    display: grid;
+    justify-content: center;
+    align-self: center;
+  }
+  .book__input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .book__input input {
+    width: 29.14125rem;
+height: 3.6875rem;
+flex-shrink: 0;
+    border-radius: 12px;
+background: #E0E4EC;
+    margin-bottom: 1.5rem;
+    border: none !important;
+  }
+
+  
+  
