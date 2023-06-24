@@ -4,7 +4,7 @@ import eclipse from '../../Assets/Ellipse 9.png'
 import eclipse2 from '../../Assets/Ellipse 10.png'
 import eclipse3 from '../../Assets/Ellipse 11.png'
 import eclipse4 from '../../Assets/Ellipse 12.png'
-import WorkCard from '../../compopnents/WorkCard/WorkCard'
+import WorkCard from '../WorkCard/WorkCard'
 import arrow from "../../Assets/Arrow 1.png"
 import arrow2 from "../../Assets/Arrow 2.png"
 import arrow3 from "../../Assets/Arrow 3.png"

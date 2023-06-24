@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import img1 from '../../Assets/Rectangle 7.png'
 import img2 from '../../Assets/Rectangle 8.png'
-import Card from '../../pages/Card/Card'
+import Card from '../Card/Card'
 import image1 from "../../Assets/Group 35.png"
 import image2 from '../../Assets/Group 33.png'
 import image3 from '../../Assets/Group 34.png'
